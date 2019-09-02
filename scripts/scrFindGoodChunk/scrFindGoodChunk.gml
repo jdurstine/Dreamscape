@@ -1,6 +1,6 @@
 // @description Find a chunk from given list which fits the given criteria
 // @param chunk_list
-// @param required_directions boolean array marking required directions true
+// @param required_directions Array of directions the chunk it required to have
 
 var _chunk_list = argument0
 var _required_directions = argument1

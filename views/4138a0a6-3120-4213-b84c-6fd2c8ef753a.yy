@@ -9,7 +9,7 @@
         "09e50944-28e8-407e-876a-14188068ce26"
     ],
     "filterType": "GMScript",
-    "folderName": "oChunk",
+    "folderName": "oMapGenerator",
     "isDefaultView": false,
     "localisedFolderName": ""
 }

@@ -1,3 +1,4 @@
+/// @function scrRandomPath(room_map, temp_map, path_stack, start_x, start_y, end_x, end_y, path_type)
 /// @description Set a random path through a grid
 /// @param room_map Grid filled with 0s representing the room
 /// @param temp_map Grid representing the current traversal
@@ -7,6 +8,11 @@
 /// @param end_x x value of the paths end
 /// @param end_y y value of the paths end
 /// @param path_type Interger representing the path
+
+/* This random path function is set up to allow scrRunRandomPath to work with a map which is partially filled.
+** If a partially filled map is given then the underlying scrRunRandomPath function will not encroach on the
+** existing path of the partially filled map.
+*/
 
 var _room_map = argument0
 var _path_stack = argument1

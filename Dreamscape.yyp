@@ -759,6 +759,14 @@
             }
         },
         {
+            "Key": "b38f1d6e-4318-4109-9864-841d1286a41a",
+            "Value": {
+                "id": "7b6d88bc-995f-4012-ba7f-a6961ba168e7",
+                "resourcePath": "scripts\\scrIsDirection\\scrIsDirection.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "b43e539c-76fd-4fec-b2d9-65b5470f66fb",
             "Value": {
                 "id": "f2208624-d887-46da-8378-8daf1b7e22cf",
@@ -770,7 +778,7 @@
             "Key": "b65da520-af6d-4e0d-9474-0a626c18e0d0",
             "Value": {
                 "id": "0f945dbc-49a2-4744-a098-59e5325a7fa0",
-                "resourcePath": "objects\\oChunkGenerator\\oChunkGenerator.yy",
+                "resourcePath": "objects\\oMapGenerator\\oMapGenerator.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -935,6 +943,14 @@
             }
         },
         {
+            "Key": "da589d24-2926-4877-ab94-d217fa843638",
+            "Value": {
+                "id": "5fa620ec-cffe-471c-a8a7-ded316960ccd",
+                "resourcePath": "scripts\\scrAddToChunkMap\\scrAddToChunkMap.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "e08d457f-b99c-4dc5-9610-c45b206694e4",
             "Value": {
                 "id": "247ead77-92f9-4c64-af82-37cbcd84e2c7",
@@ -991,6 +1007,14 @@
             }
         },
         {
+            "Key": "ee58ab08-c8a1-42aa-bcf6-eab907abffd4",
+            "Value": {
+                "id": "b6893bb0-7b14-4019-8038-4ba8698abc12",
+                "resourcePath": "views\\ee58ab08-c8a1-42aa-bcf6-eab907abffd4.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "ee79ad88-7fa3-4366-b196-ae8a02abe3b0",
             "Value": {
                 "id": "1c7ce8d6-98bf-4759-989d-d71e7f76ccc7",
@@ -1031,6 +1055,14 @@
             }
         },
         {
+            "Key": "f9a8a053-d618-48e5-a259-9d5f4af987a1",
+            "Value": {
+                "id": "a24448c4-4c5e-4ac7-97e6-7f1290ddc938",
+                "resourcePath": "scripts\\scrChunkMapFactory\\scrChunkMapFactory.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "fad3d2aa-cd52-40f5-883e-e9eb7f8d4909",
             "Value": {
                 "id": "b9e03ef9-09d5-41d4-b3bd-5441c5973abf",
@@ -1056,7 +1088,6 @@
         }
     ],
     "script_order": [
-        "ece33294-5739-4da0-85ef-a42e58bf574f",
         "1c150cde-ced5-4f9c-bf10-a5aa14123de3",
         "2e2c8177-2e07-45b9-9e42-1ec3042894a3",
         "44a626e6-0dd5-4839-b779-c33c12442c39",
@@ -1069,6 +1100,8 @@
         "c183e61f-3e9d-4d0b-81e6-b57d77bccf8d",
         "bd6e900a-2229-4a91-b826-849a74e978e0",
         "cbfe2e5b-a756-4335-a75b-5cc0cb54483d",
+        "f9a8a053-d618-48e5-a259-9d5f4af987a1",
+        "da589d24-2926-4877-ab94-d217fa843638",
         "f2e076e4-1f26-4fa8-9093-c2eff6e5ec57",
         "478bb6d0-597e-47dc-a1c9-e771ae7dc7b6",
         "3bcbbeb6-4268-4461-814d-6985c438e435",
@@ -1079,7 +1112,9 @@
         "b43e539c-76fd-4fec-b2d9-65b5470f66fb",
         "9bd005b6-1df2-4d95-8995-9914a6efe279",
         "4cd1235b-b13c-49de-b19c-ba5d062f4f50",
-        "b8729395-d2e7-4c22-9bfe-7ff274059471"
+        "b8729395-d2e7-4c22-9bfe-7ff274059471",
+        "ece33294-5739-4da0-85ef-a42e58bf574f",
+        "b38f1d6e-4318-4109-9864-841d1286a41a"
     ],
     "tutorial": ""
 }
