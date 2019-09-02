@@ -1,5 +1,9 @@
 /// @description Add a path between two points to the chunk_grid
-// The start and end parameters are defined in the create event.
+// The start and end parameters are defined in the create event before running this.
+
+// reset any needed objects to their default values
+ds_grid_set_region(path_grid, 0, 0, x_count, y_count, 0)
+ds_stack_clear(path_stack)
 
 if (scrRandomPath(path_grid, path_stack, start_x, start_y, end_x, end_y, 1))
 {

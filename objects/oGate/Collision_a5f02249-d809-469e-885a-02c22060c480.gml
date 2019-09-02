@@ -3,7 +3,16 @@
 
 if (oPlayer.has_key = true)
 {
-	room_goto(rVictory)
+	if (global.level < 5)
+	{
+		global.level++
+		global.player_health = oPlayer.player_health
+		room_goto(rDungeon)
+	}
+	else
+	{
+		room_goto(rVictory)
+	}
 }
 else
 {

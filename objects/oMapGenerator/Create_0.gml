@@ -38,14 +38,15 @@ for (var i  = 0; i < ds_grid_width(chunk_grid); i++)
 
 // set up grid to track pathing
 path_grid = ds_grid_create(x_count, y_count)
-ds_grid_set_region(path_grid, 0, 0, x_count, y_count, 0)
 
 // set up the direction stack for path tracking
 path_stack = ds_stack_create()
 
 #endregion
 
-// set start and end index values for path
+#region Door Path
+
+// set the path start and end
 start_x = 0
 start_y = 0
 end_x = x_count - 1
@@ -53,6 +54,21 @@ end_y = y_count - 1
 
 // define the path on the chunk grid
 event_user(1)
+
+#endregion
+
+#region Key Path
+
+// set the path start and end
+start_x = 0
+start_y = 0
+end_x = x_count - 1
+end_y = 0
+
+// define the path on the chunk grid
+event_user(1)
+
+#endregion
 
 #endregion
 
@@ -74,79 +90,3 @@ for (var i = 0; i < x_count; i++)
 }
 
 #endregion
-
-/* copy of logic
-// set start and end index values for path
-start_x = 0
-start_y = 0
-end_x = x_count - 1
-end_y = y_count - 1
-
-// run the random path recursion
-if (scrRandomPath(level_grid, path_stack, start_x, start_y, end_x, end_y, 1))
-{
-	var _cur_x = end_x*chunk_x
-	var _cur_y = end_y*chunk_y
-	
-	// place chunk based off of top of stack at end of path
-	x = _cur_x
-	y = _cur_y
-	
-	var _directions
-	_directions[0] = scrReverseDirection(ds_stack_top(path_stack))
-	var _chunk = scrFindGoodChunk(chunk_types, _directions)
-	chunk_name = _chunk[| 0]
-	event_user(0)
-	
-	// traverse the path placing blocks as we go
-	while (true)
-	{
-		var _directions = array_create(2)
-		_directions[0] = ds_stack_pop(path_stack) // to
-		_directions[1] = scrReverseDirection(ds_stack_top(path_stack)) // from, path_stack is based off previous chunk
-		
-		switch (_directions[0])
-		{
-			case directions.up:
-				_cur_y += chunk_y
-				break
-			case directions.down:
-				_cur_y -= chunk_y
-				break
-			case directions.left:
-				_cur_x += chunk_x
-				break
-			case directions.right:
-				_cur_x -= chunk_x
-				break
-		}
-		
-		x = _cur_x
-		y = _cur_y
-		
-		var _chunk = scrFindGoodChunk(chunk_types, _directions)
-		chunk_name = _chunk[| 0]
-		event_user(0)	
-		
-		// break loop once we've hit start
-		if (ds_stack_size(path_stack) == 1)
-		{
-			break
-		}
-	}
-	
-	// place an appropriate chunk at the start of the path
-	x = start_x
-	y = start_y
-	
-	var _directions
-	_directions[0] = ds_stack_top(path_stack)
-	var _chunk = scrFindGoodChunk(chunk_types, _directions)
-	chunk_name = _chunk[| 0]
-	event_user(0)
-}
-else
-{
-	show_error("path could not be found", true)
-}
-*/

@@ -62,3 +62,10 @@ for (var i = 0; i < _spell_count; i++)
 		0.5)
 }
 #endregion
+
+#region Show Current Level
+
+draw_set_halign(fa_right)
+draw_text_color(level_text_x, level_text_y, "level " + string(global.level), c_white, c_white, c_white, c_white, 1)
+
+#endregion

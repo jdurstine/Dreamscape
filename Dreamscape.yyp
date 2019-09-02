@@ -567,6 +567,14 @@
             }
         },
         {
+            "Key": "849cf55a-4ec3-4f0d-9cc8-e662244b951c",
+            "Value": {
+                "id": "6b0b4cf3-7e96-479c-9435-6a580becdbc2",
+                "resourcePath": "objects\\oCastingAnim\\oCastingAnim.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "863a9006-9cd6-46b5-b01a-87f88813f412",
             "Value": {
                 "id": "909e86cd-4346-4eb8-9a24-3bbde3f4d424",
@@ -1076,6 +1084,14 @@
                 "id": "43490ebe-806c-4290-ade1-5f86eff8c622",
                 "resourcePath": "objects\\oSpell_LavaRay\\oSpell_LavaRay.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "fd545dd7-89e5-4865-ac1e-acc715384efa",
+            "Value": {
+                "id": "de4342af-e980-4eee-b18f-5308dedd7bc3",
+                "resourcePath": "sprites\\sCasting\\sCasting.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
