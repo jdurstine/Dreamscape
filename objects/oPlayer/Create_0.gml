@@ -28,6 +28,6 @@ scrCreateTurn(id, 0)
 #region Casting Animation Initialization
 
 casting_anim_started = false
-casting_anim_wait = 1000
+casting_anim_wait = 10*(sprite_get_number(image_number)/sprite_get_speed(sprite_index))*1000
 
 #endregion

@@ -63,11 +63,11 @@
             }
         },
         {
-            "Key": "0a0dde81-bcfc-4c7d-8ab2-8790a104b08c",
+            "Key": "0b3eeee1-8620-4667-9a83-8074ef90c4be",
             "Value": {
-                "id": "78fd1744-630e-4b4f-8756-452e8109cee9",
-                "resourcePath": "datafiles_yy\\room_T4.txt.yy",
-                "resourceType": "GMIncludedFile"
+                "id": "06385ecd-92f9-465e-a6df-f3a633c78d7b",
+                "resourcePath": "sprites\\sDungeon_U_7\\sDungeon_U_7.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -127,6 +127,30 @@
             }
         },
         {
+            "Key": "1451b66a-bb77-4371-95f5-37e85873597f",
+            "Value": {
+                "id": "199021ce-56de-4fa7-9d38-16c1660888bb",
+                "resourcePath": "objects\\oDungeon_U_6\\oDungeon_U_6.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "14af24df-4a1d-4dde-bb35-458f1dc0b79e",
+            "Value": {
+                "id": "3dd87f7a-92a3-42f6-86d3-7733718dff5d",
+                "resourcePath": "sprites\\sDungeon_L_4\\sDungeon_L_4.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "171dd3c1-6531-4db7-8f65-9459d7c3017f",
+            "Value": {
+                "id": "48624ecd-316b-422f-9519-a79c15901025",
+                "resourcePath": "datafiles_yy\\room_X1.txt.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "19687016-3ede-43cd-a16b-a99c5e20cb1c",
             "Value": {
                 "id": "ac6a7887-9ec8-4398-ad96-9f07dec10b06",
@@ -156,6 +180,14 @@
                 "id": "83e98c30-16de-4b3e-8489-ea0eeed8cd35",
                 "resourcePath": "rooms\\rGameOver\\rGameOver.yy",
                 "resourceType": "GMRoom"
+            }
+        },
+        {
+            "Key": "1dde9298-7f1f-4008-86a2-2eae0f6631cc",
+            "Value": {
+                "id": "e22d7e21-3e54-4228-9f87-7b602984fd62",
+                "resourcePath": "sprites\\sDungeon_U_8\\sDungeon_U_8.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -191,6 +223,14 @@
             }
         },
         {
+            "Key": "212294ab-3b21-4d45-9b0d-49bfba10fd94",
+            "Value": {
+                "id": "c63657b9-e692-422b-ae86-4fe2be3bd2ed",
+                "resourcePath": "sprites\\sDungeon_Bar_0\\sDungeon_Bar_0.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "2219c571-5e84-46d1-93e9-c05d1d0c459f",
             "Value": {
                 "id": "2cfdb819-8887-4b06-96d4-ff1babdea475",
@@ -212,6 +252,14 @@
                 "id": "f358cabf-08d6-4bed-9b97-268cccac593f",
                 "resourcePath": "views\\24123485-04c4-4257-846b-9ad964f18e45.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "2763e600-1efc-4472-bf1e-a3397c49257d",
+            "Value": {
+                "id": "2a32e711-bee5-4cd0-ac42-b48204c1d8a3",
+                "resourcePath": "objects\\oDungeon_L_4\\oDungeon_L_4.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -276,6 +324,14 @@
                 "id": "f76404a3-a425-4c3a-9b63-d257c839858d",
                 "resourcePath": "views\\38cf6ae8-1352-4845-a4eb-14fe525d4b4a.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "38eeaa9a-3b8c-426c-8719-2fa4d87d9d85",
+            "Value": {
+                "id": "2a22c0f8-ecbb-4a2d-a222-144c455cc902",
+                "resourcePath": "objects\\oDungeon_U_7\\oDungeon_U_7.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -399,6 +455,14 @@
             }
         },
         {
+            "Key": "5336bf2b-4660-4234-8a6c-1ae03d61c0d1",
+            "Value": {
+                "id": "4968cce0-69ab-43e4-b4f4-4f34c6d19b2f",
+                "resourcePath": "objects\\oDungeon_L_3\\oDungeon_L_3.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "561c9219-4cc2-4377-8f0d-fbf277738927",
             "Value": {
                 "id": "9e150b2f-bcb5-42d8-bfae-49699b4e503e",
@@ -423,19 +487,35 @@
             }
         },
         {
-            "Key": "630199ff-a1df-44a8-a603-9c19d993690d",
-            "Value": {
-                "id": "9cfef796-89cf-422d-a94e-f6c55fd47377",
-                "resourcePath": "datafiles_yy\\room0.txt.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "643210b4-3498-4654-9f6a-c2ca202520ba",
             "Value": {
                 "id": "24fa185d-5732-4df3-87f9-3f52504728bf",
                 "resourcePath": "objects\\oMAttack_Basic\\oMAttack_Basic.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "661d9775-107d-4129-8679-d469933d2a64",
+            "Value": {
+                "id": "c7e783c4-cb4e-4e51-94ea-9338cdcc663b",
+                "resourcePath": "sprites\\sDungeon_BottomRight\\sDungeon_BottomRight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "66467471-2e9e-4530-8ecc-109248f12dbf",
+            "Value": {
+                "id": "99ce9e12-97b3-4951-b2d7-8c8bf932e46c",
+                "resourcePath": "sprites\\sDungeon_TopLeft\\sDungeon_TopLeft.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "668b1721-9fdd-48d9-ad27-80fa0a354b9f",
+            "Value": {
+                "id": "db140036-5b59-4753-8774-f890494e7c0b",
+                "resourcePath": "sprites\\sDungeon_Reference\\sDungeon_Reference.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -459,6 +539,14 @@
             "Value": {
                 "id": "92731535-0a60-494a-86bf-93dc6b868649",
                 "resourcePath": "objects\\oPlayer\\oPlayer.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "6e924463-d27a-436b-ae9e-69cb0425a545",
+            "Value": {
+                "id": "22fec46b-8bb4-4cb1-b188-550730e862cb",
+                "resourcePath": "objects\\oDungeon_U_9\\oDungeon_U_9.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -500,6 +588,46 @@
                 "id": "011abd7d-2e4d-457f-b365-86f499c67cb9",
                 "resourcePath": "views\\74151483-5877-4f90-856c-49c887410a1d.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "744300a3-246e-48eb-add5-60ce030f45a4",
+            "Value": {
+                "id": "05994f49-4c46-47ad-880e-4efe6794939f",
+                "resourcePath": "sprites\\sDungeon_U_6\\sDungeon_U_6.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "74e4e3c2-900f-4956-9d6b-9937d000f603",
+            "Value": {
+                "id": "5f93eb71-15f1-4fd2-aa18-af4b364c3bfc",
+                "resourcePath": "sprites\\sPlayer_Left\\sPlayer_Left.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7536d1e7-80bb-4e56-b1ff-7fa7d064398c",
+            "Value": {
+                "id": "97719c6f-b4f8-4c8d-811b-5e7a502612cd",
+                "resourcePath": "sprites\\sDungeon_Bar_1\\sDungeon_Bar_1.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "754e481a-ce06-48b3-b6e5-a9faf04b2a36",
+            "Value": {
+                "id": "fb2e7e39-be85-4b47-aeb9-f8f64003440c",
+                "resourcePath": "sprites\\sPlayer_Down\\sPlayer_Down.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "7613d7fd-17e6-4e63-ad64-59a26ad59def",
+            "Value": {
+                "id": "54695bb2-d406-4de8-9986-fba4cb90e853",
+                "resourcePath": "sprites\\sDungeon_TopRight\\sDungeon_TopRight.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -580,6 +708,22 @@
                 "id": "909e86cd-4346-4eb8-9a24-3bbde3f4d424",
                 "resourcePath": "objects\\oChunk_room_T4\\oChunk_room_T4.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8a8db851-cad5-453d-a3bb-cd85ad909987",
+            "Value": {
+                "id": "2511d2d9-8d02-47fe-9e18-beb512bc498b",
+                "resourcePath": "objects\\oDungeon_Bar_1\\oDungeon_Bar_1.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "90385465-8a65-420f-918d-0f99ba44ea4c",
+            "Value": {
+                "id": "542a7733-77d8-4125-9e76-32909c363c63",
+                "resourcePath": "datafiles_yy\\room_T1.txt.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -735,11 +879,27 @@
             }
         },
         {
+            "Key": "aa8cceb6-39b2-4c18-ac1f-2cd82a9f7161",
+            "Value": {
+                "id": "5ab4d220-2e2e-4441-8ab5-75195a546d6c",
+                "resourcePath": "datafiles_yy\\room_T2.txt.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "aaa879e9-aba4-4bfa-83e3-0afd63494167",
             "Value": {
                 "id": "f91e6534-fe71-4d7b-816c-77d625eba8c4",
                 "resourcePath": "scripts\\scrStartCasting\\scrStartCasting.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "aadb979a-abf2-4635-ad3d-b5ae7458bf6f",
+            "Value": {
+                "id": "bdc9d06f-3817-4f1f-95c6-4391f689abe9",
+                "resourcePath": "objects\\oDungeon_U_8\\oDungeon_U_8.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -751,19 +911,27 @@
             }
         },
         {
+            "Key": "ad67b6aa-9209-43f7-bbed-9af2f9f3a854",
+            "Value": {
+                "id": "eb47ee25-3f68-4385-bbe5-9351f6c5402c",
+                "resourcePath": "objects\\oDungeon_L_5\\oDungeon_L_5.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "b0875290-4740-4921-9639-942da7a96e8e",
+            "Value": {
+                "id": "4874bff2-33b1-4eb5-bfd0-d060ac223725",
+                "resourcePath": "views\\b0875290-4740-4921-9639-942da7a96e8e.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "b29eb296-4b29-4626-a0eb-3b031533b606",
             "Value": {
                 "id": "b3e94bc5-dfae-4f84-95b8-ae2482297bf7",
                 "resourcePath": "sprites\\sMBasicAttack\\sMBasicAttack.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "b36e1a39-ec03-4bce-a87e-e15ea5f5d7f3",
-            "Value": {
-                "id": "406942f0-62fa-4002-ac39-cb65c5d14311",
-                "resourcePath": "datafiles_yy\\room_T3.txt.yy",
-                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -780,6 +948,14 @@
                 "id": "f2208624-d887-46da-8378-8daf1b7e22cf",
                 "resourcePath": "scripts\\scrAddSpell\\scrAddSpell.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "b5c1e932-5b66-4205-a1a8-66d3b86762cb",
+            "Value": {
+                "id": "3da5b1bb-ac10-4d37-bdad-852800f548bb",
+                "resourcePath": "sprites\\sDungeon_BottomLeft\\sDungeon_BottomLeft.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -847,6 +1023,14 @@
             }
         },
         {
+            "Key": "c61b9d1c-b375-4a5b-970f-fc347e092e5b",
+            "Value": {
+                "id": "ea21eabf-da5d-4d19-8509-b66aa4d5b547",
+                "resourcePath": "sprites\\sPlayer_Up\\sPlayer_Up.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "c6ed5717-948d-4143-bd7f-a04d6fb9c7c9",
             "Value": {
                 "id": "1034ca8a-cf1a-43a6-90a0-f4f73c724f61",
@@ -879,11 +1063,35 @@
             }
         },
         {
+            "Key": "cbebfed4-2cc9-4742-b035-75839ece7c9a",
+            "Value": {
+                "id": "5475682e-c28e-403e-8527-6439df17d595",
+                "resourcePath": "sprites\\sDungeon_L_5\\sDungeon_L_5.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "cbf36ccc-2c32-470c-870e-75f9d51a592a",
+            "Value": {
+                "id": "3e06c888-da30-4547-b639-9f50f708f94c",
+                "resourcePath": "objects\\oDungeon_Bar_0\\oDungeon_Bar_0.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "cbfe2e5b-a756-4335-a75b-5cc0cb54483d",
             "Value": {
                 "id": "1d0e163b-a5d3-40ee-927e-fdd7043027ff",
                 "resourcePath": "scripts\\scrOutOfBounds\\scrOutOfBounds.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "cc0e1df8-5e64-4359-9d2d-b47eedc077c5",
+            "Value": {
+                "id": "d11cf0f1-1ff7-41fb-b3db-d780effdc9c1",
+                "resourcePath": "objects\\oDungeon_L_2\\oDungeon_L_2.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -911,6 +1119,14 @@
             }
         },
         {
+            "Key": "d11b1df7-0e45-41ca-870e-384eb16aaed5",
+            "Value": {
+                "id": "7b6d52ba-1ec4-4846-b0ff-ec4df5e255c5",
+                "resourcePath": "datafiles_yy\\room_T4.txt.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "d149e114-906b-4e57-87a3-57849dc178cc",
             "Value": {
                 "id": "8973496b-2cb3-49c2-9212-83385f67571f",
@@ -935,10 +1151,10 @@
             }
         },
         {
-            "Key": "d96c8266-e74b-4d79-86c0-358777241d54",
+            "Key": "d972c5d1-e8f6-49cb-942a-8d70efe25889",
             "Value": {
-                "id": "7bbb6a71-abf7-4028-843f-b2045326c578",
-                "resourcePath": "datafiles_yy\\room_T2.txt.yy",
+                "id": "4fdf93ee-12de-4feb-aa63-8371ee0e5abc",
+                "resourcePath": "datafiles_yy\\room_T3.txt.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -959,6 +1175,14 @@
             }
         },
         {
+            "Key": "da8e1484-6a9f-4128-886d-113615a94a02",
+            "Value": {
+                "id": "86edfd9c-49e9-4d39-a119-4174c9c4a640",
+                "resourcePath": "sprites\\sDungeon_Bottom\\sDungeon_Bottom.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e08d457f-b99c-4dc5-9610-c45b206694e4",
             "Value": {
                 "id": "247ead77-92f9-4c64-af82-37cbcd84e2c7",
@@ -975,18 +1199,18 @@
             }
         },
         {
-            "Key": "e30f7a0c-764b-4ee0-b9fe-1fb80361546b",
-            "Value": {
-                "id": "f9c93f8a-e9df-4094-a453-be4f84754eb2",
-                "resourcePath": "datafiles_yy\\room_T1.txt.yy",
-                "resourceType": "GMIncludedFile"
-            }
-        },
-        {
             "Key": "e6ee5278-5e3a-4c63-b92c-3f9660416c55",
             "Value": {
                 "id": "a67b5542-3c71-41e7-bf87-32381d87599d",
                 "resourcePath": "sprites\\sGameOver\\sGameOver.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e91854ba-3ec5-4c4b-a503-6686892e4dbf",
+            "Value": {
+                "id": "3a45a124-fecf-4b9e-a460-cf79506ea447",
+                "resourcePath": "sprites\\sDungeon_Top\\sDungeon_Top.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -1039,6 +1263,22 @@
             }
         },
         {
+            "Key": "f1915340-6e16-41e5-82ea-23846f93af6f",
+            "Value": {
+                "id": "35baf83f-f148-40ba-868e-86b324d49929",
+                "resourcePath": "sprites\\sPlayer_Right\\sPlayer_Right.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f1d4bf5a-a305-4af7-9918-38e043e8670f",
+            "Value": {
+                "id": "57b59e55-974e-4a47-8eb4-623b80f63588",
+                "resourcePath": "sprites\\sDungeon_L_2\\sDungeon_L_2.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "f217c75c-25e0-400c-92af-45f067d91b7f",
             "Value": {
                 "id": "e772d4a9-e8b9-4a16-b240-30ee604aa267",
@@ -1060,6 +1300,22 @@
                 "id": "cfd100ea-fcc9-4cdb-9035-534ed375824a",
                 "resourcePath": "scripts\\scrImportChunk\\scrImportChunk.yy",
                 "resourceType": "GMScript"
+            }
+        },
+        {
+            "Key": "f5673983-f11c-42ce-80ba-7a0ccc1d0cfd",
+            "Value": {
+                "id": "429d1747-17ee-4ce5-9403-1c141ecd33ad",
+                "resourcePath": "sprites\\sDungeon_L_3\\sDungeon_L_3.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "f8f0da19-4fff-4490-b1d7-d7dc36bdfa2a",
+            "Value": {
+                "id": "972b1f69-f3a2-4625-a6dd-26309d284871",
+                "resourcePath": "sprites\\sDungeon_U_9\\sDungeon_U_9.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -1092,14 +1348,6 @@
                 "id": "de4342af-e980-4eee-b18f-5308dedd7bc3",
                 "resourcePath": "sprites\\sCasting\\sCasting.yy",
                 "resourceType": "GMSprite"
-            }
-        },
-        {
-            "Key": "ff8c4826-8017-4f55-ad08-4db0cdbc4993",
-            "Value": {
-                "id": "b215b688-7628-4cac-9a33-b9a2c340f1d8",
-                "resourcePath": "datafiles_yy\\room_X1.txt.yy",
-                "resourceType": "GMIncludedFile"
             }
         }
     ],
