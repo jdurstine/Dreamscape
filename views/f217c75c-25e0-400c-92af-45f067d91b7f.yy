@@ -5,7 +5,8 @@
     "name": "f217c75c-25e0-400c-92af-45f067d91b7f",
     "children": [
         "77ba6920-ca5a-4d00-9bd6-6adbcf2a8bb0",
-        "987c5b20-d904-42ec-9024-1b9013fdc60c"
+        "987c5b20-d904-42ec-9024-1b9013fdc60c",
+        "b0875290-4740-4921-9639-942da7a96e8e"
     ],
     "filterType": "GMSprite",
     "folderName": "Terrain",
