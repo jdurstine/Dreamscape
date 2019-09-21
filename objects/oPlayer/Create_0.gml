@@ -23,6 +23,8 @@ buffs = ds_list_create()
 ds_list_clear(buffs)
 */
 
+items = instance_create_depth(0, 0, 200, oSubsystem_Items)
+
 scrCreateTurn(id, 0)
 
 #region Casting Animation Initialization

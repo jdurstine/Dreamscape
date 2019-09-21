@@ -1,5 +1,4 @@
-/// @description Insert description here
-// You can write your code in this editor
+/// @description On collision with an attack
 
 var spell_hit = instance_place(bbox_left, bbox_top, oAttack)
 if (ds_list_find_index(spell_hit.hit_list, id) < 0)
