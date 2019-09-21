@@ -1,32 +1,45 @@
-#region Casting Animation
-
-var _casting_color = c_white
-
-if (spells.casting != noone)
-{
-	var _casting_color_value = 255
-	_casting_color_value = 255*sqr(sin(current_time/750))
-	_casting_color = make_colour_rgb(255, _casting_color_value, _casting_color_value)
-}
-
-#endregion
-
 #region Directional Draw
 
 switch (facing)
 {
 	case "up":
-		draw_sprite_ext(sPlayer_Up, -1, x, y, 1, 1, 0, _casting_color, 1)
+		draw_sprite_ext(sPlayer_Up, -1, x, y, 1, 1, 0, c_white, 1)
 		break
 	case "down":
-		draw_sprite_ext(sPlayer_Down, -1, x, y, 1, 1, 0, _casting_color, 1)
+		draw_sprite_ext(sPlayer_Down, -1, x, y, 1, 1, 0, c_white, 1)
 		break
 	case "left":
-		draw_sprite_ext(sPlayer_Left, -1, x, y, 1, 1, 0, _casting_color, 1)
+		draw_sprite_ext(sPlayer_Left, -1, x, y, 1, 1, 0, c_white, 1)
 		break
 	case "right":
-		draw_sprite_ext(sPlayer_Right, -1, x, y, 1, 1, 0, _casting_color, 1)
+		draw_sprite_ext(sPlayer_Right, -1, x, y, 1, 1, 0, c_white, 1)
 		break
+}
+
+#endregion
+
+#region Casting Animation
+
+
+if (spells.casting != noone)
+{
+	if (!casting_anim_started)
+	{
+		casting_anim_started = true
+		casting_anim_last = current_time
+	}
+	
+	var _dx = (sprite_get_width(sCasting) - oPlayer.sprite_width)/2
+	if (current_time - casting_anim_last >= casting_anim_wait)
+	{
+		casting_anim_last = current_time
+		instance_create_depth(x - _dx, y - _dx, depth - 1, oCastingAnim)
+	}
+	
+}
+else if (casting_anim_started)
+{
+	casting_anim_started = false
 }
 
 #endregion

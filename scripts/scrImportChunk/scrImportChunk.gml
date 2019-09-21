@@ -1,4 +1,4 @@
-/// @function scrImportChunk(room_name)
+/// @function generator_import_levels(room_name)
 /// @description Loads ascii levels from a text document into memory
 /// @param {string} room_name The name of the room
 /// @return {boolean} Truthy; whether the level file was read correctly

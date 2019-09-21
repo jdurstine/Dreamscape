@@ -1,5 +1,5 @@
-/// @description Signal to the spell system that a turn has passed
-/// @param instance instance id of the spell subsystem to check
+// @description Signal to the spell system that a turn has passed
+// @param instance instance id of the spell subsystem to check
 
 var _instance = argument0
 

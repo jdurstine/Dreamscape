@@ -1,6 +1,5 @@
 /// @description Draw the menu
 
-draw_set_halign(fa_left)
 for (var i = 0; i < ds_list_size(menu_items); i++)
 {
 	if (menu_position == i)

@@ -1,4 +1,4 @@
-/// @function scrAddToChunkMap(id, property, value)
+/// @function scrAddToChunkMap(id, )
 /// @description Add information to a given property of a chunk map
 /// @param {real} id id of the map you want to add information to
 /// @param {string} property property name 
