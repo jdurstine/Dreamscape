@@ -1,5 +1,5 @@
-// @description Attempt to cast the current spell
-// @param instance instance id of the spell subsystem to check
+/// @description Attempt to cast the current spell
+/// @param instance instance id of the spell subsystem to check
 
 var _instance = argument0
 

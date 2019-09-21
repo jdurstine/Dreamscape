@@ -2,29 +2,25 @@
 
 switch (keyboard_key)
 {
-	case vk_escape:
+	case global.back:
 		event_user(4)
 		break
-	case vk_up:
-	case ord("W"):
+	case global.up:
 		event_user(1)
 		break
-	case vk_down:
-	case ord("S"):
+	case global.down:
 		event_user(0)
 		break
-	case vk_left:
-	case ord("A"):
+	case global.left:
 		event_user(1)
 		break
-	case vk_right:
-	case ord("D"):
+	case global.right:
 		event_user(0)
 		break
-	case vk_enter:
+	case global.accept:
 		event_user(2)
 		break
 	default:
-		//we'll play a sound or something later
+		// we'll play a sound or something later
 		break
 }

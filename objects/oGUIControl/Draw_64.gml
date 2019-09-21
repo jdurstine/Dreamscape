@@ -45,7 +45,6 @@ var _cooldown_scale = noone
 
 for (var i = 0; i < _spell_count; i++)
 {
-	
 	_spell_instance = instance_create_layer(0, 0, layer_get_id("GUI"), _spell_list[| i])
 	_cooldown = _spell_instance.cooldown
 	_cooldown_scale = _cooldown_timers[| i]/_cooldown

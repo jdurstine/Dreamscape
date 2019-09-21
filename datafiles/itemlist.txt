@@ -1,0 +1,11 @@
+# Item list
+# 
+#
+
+# item 0
+BEGIN
+ATR, NAME, Rusty Knife
+ATR, DESCRIPTION, An old rusty knife.
+ATR, TYPE, Relic
+ATR, DAMAGE, 1
+END

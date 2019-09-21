@@ -20,7 +20,10 @@
         "744300a3-246e-48eb-add5-60ce030f45a4",
         "0b3eeee1-8620-4667-9a83-8074ef90c4be",
         "1dde9298-7f1f-4008-86a2-2eae0f6631cc",
-        "f8f0da19-4fff-4490-b1d7-d7dc36bdfa2a"
+        "f8f0da19-4fff-4490-b1d7-d7dc36bdfa2a",
+        "f28f885c-0316-4521-8024-1f6c559c5a5f",
+        "308593e4-f6b6-42fa-9600-d46abbd886ad",
+        "983547fe-bf9c-44e8-a21f-5a88b76f84c9"
     ],
     "filterType": "GMSprite",
     "folderName": "Dungeon",

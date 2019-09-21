@@ -1,13 +1,19 @@
 // @description Main Player Code
 
+if (global.paused)
+{
+	exit
+}
+
 var _valid_input = false
 
 switch (keyboard_key)
 {
 	#region Hotkey Gate
 	// gate to ensure we're only acting on valid inputs
-	case global.pause:
+	case global.inventory:
 		global.paused = true
+		instance_create_depth(0, 0, depth, oMenu_Inventory)
 		break
 	case global.skipturn:
 	case global.up:
