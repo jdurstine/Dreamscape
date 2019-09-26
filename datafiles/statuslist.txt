@@ -1,0 +1,12 @@
+# Status list
+# 
+#
+
+# status 0
+BEGIN
+ATR, NAME, Poison
+ATR, DESCRIPTION, Poisoned
+ATR, TYPE, DEBUFF
+ATR, DAMAGE, 10
+ATR, DURATION, 5
+END

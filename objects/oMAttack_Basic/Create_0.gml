@@ -3,3 +3,4 @@
 
 event_inherited()
 damage = 10
+status = 0

@@ -99,6 +99,7 @@ if (scrCanAct(id) && global.paused == false && _valid_input == true)
 	}
 	
 	#region Casting Functionality
+	
 	if (scrIsCasting(spells))
 	{
 		scrAttemptToCast(spells)
@@ -106,23 +107,15 @@ if (scrCanAct(id) && global.paused == false && _valid_input == true)
 	
 	scrSpellTurnComplete(spells)
 	
-	/* defunct until buffs added
-	var i = 0
-	while (i < ds_list_size(buffs))
-	{
-		if (!instance_exists(buffs[| i]))
-		{
-			ds_list_delete(buffs, i)
-		}
-		else
-		{
-			buffs[| i].duration -= 1
-			i++
-		}
-	}
-	*/
-	
 	#endregion	
+	
+	#region Status Functionality
+	
+	oPlayer.player_health -= scrStatusDamage(statuses)
+	
+	scrStatusTurnComplete(statuses)
+	
+	#endregion
 	
 	scrTurnOver(id)
 }

@@ -40,9 +40,17 @@ global.right = vk_right
 
 #endregion
 
-#region Load Items
+#region Load Text Asset Lists
 
-scrLoadItems()
+if (!scrLoadItems())
+{
+	show_error("Item list was not available to load.", true)
+}
+
+if(!scrLoadStatuses())
+{
+	show_error("Status list was not available to load.", true)
+}
 
 #endregion
 
