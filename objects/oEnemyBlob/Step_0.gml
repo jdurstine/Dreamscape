@@ -17,31 +17,12 @@ if (scrCanAct(id))
 	
 	if (aggroed)
 	{
-		to_player_X = oPlayer.x - x
-		to_player_Y = oPlayer.y - y
-	
-		var _direction
-	
-		if (abs(to_player_X) >= abs(to_player_Y) && to_player_X > 0)
-		{
-			_direction = "right"
-		}
-		if (abs(to_player_X) >= abs(to_player_Y) && to_player_X < 0)
-		{
-			_direction = "left"
-		}
-		if (abs(to_player_X) < abs(to_player_Y) && to_player_Y < 0)
-		{
-			_direction = "up"
-		}
-		if (abs(to_player_X) < abs(to_player_Y) && to_player_Y > 0)
-		{
-			_direction = "down"
-		}
-	
+		var _direction = scrDirectionToFace(id, oPlayer)
+		facing = _direction
+		
 		switch (_direction)
 		{
-			case "up":
+			case directions.up:
 				if (scrMovementPossible(x, y - move_speed))
 				{
 					y -= move_speed;
@@ -51,7 +32,7 @@ if (scrCanAct(id))
 					scrBasicAttack("up", bbox_left, bbox_top, oMAttack_Basic)
 				}
 				break
-			case "down":
+			case directions.down:
 				if (scrMovementPossible(x, y + move_speed))
 				{
 					y += move_speed;
@@ -61,7 +42,7 @@ if (scrCanAct(id))
 					scrBasicAttack("down", bbox_left, bbox_top, oMAttack_Basic)
 				}
 				break
-			case "left":
+			case directions.left:
 				if (scrMovementPossible(x - move_speed, y))
 				{
 					x -= move_speed;
@@ -71,7 +52,7 @@ if (scrCanAct(id))
 					scrBasicAttack("left", bbox_left, bbox_top, oMAttack_Basic)
 				}
 				break;
-			case "right":
+			case directions.right:
 				if (scrMovementPossible(x + move_speed, y))
 				{
 					x += move_speed;

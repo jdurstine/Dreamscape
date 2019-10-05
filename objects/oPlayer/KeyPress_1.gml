@@ -102,7 +102,7 @@ if (scrCanAct(id) && global.paused == false && _valid_input == true)
 	
 	if (scrIsCasting(spells))
 	{
-		scrAttemptToCast(spells)
+		scrAttemptToCast(spells, self)
 	}
 	
 	scrSpellTurnComplete(spells)

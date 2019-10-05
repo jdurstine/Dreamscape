@@ -1,28 +1,25 @@
+/// @function scrAttemptToCast(subsystem_instance, casting_agent)
 /// @description Attempt to cast the current spell
-/// @param instance instance id of the spell subsystem to check
+/// @param subsystem_instance instance id of the spell subsystem to check
+/// @param _casting_agent Agent which is casting the spell
 
-var _instance = argument0
+var _subsystem_instance = argument0
+var _casting_agent = argument1
 
-if (_instance.object_index != oSubsystem_Spells)
+if (_subsystem_instance.object_index != oSubsystem_Spells)
 {
 	show_error("scrIsCasting expects object of type oSubsystem_Spells.", true)
 }
 
-if (_instance.cast_timer == 1)
+if (_subsystem_instance.cast_timer == 1)
 {
-	var _casted = instance_create_depth(0, 0, 200, _instance.casting)
+	var _casted = instance_create_depth(0, 0, 200, _subsystem_instance.casting)
 	
 	with (_casted)
 	{
+		creator = _casting_agent
 		event_user(0)
 	}
-	
-	/* defunct until buffs added back
-	if (object_is_ancestor(_instance.casting, oBuff))
-	{
-		ds_list_add(buffs, _casted)
-	}
-	*/
 			
-	_instance.casting = noone
+	_subsystem_instance.casting = noone
 }

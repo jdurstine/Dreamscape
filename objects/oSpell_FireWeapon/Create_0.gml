@@ -3,7 +3,7 @@
 
 event_inherited()
 
-damage = 10
 cast_time = 3
-duration = 15
 cooldown = 0
+status = 1
+duration = 5

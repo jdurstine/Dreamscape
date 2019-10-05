@@ -45,7 +45,7 @@ while (true)
 	}
 	
 	_break_test = _new_x < 0|| _new_y < 0 || _new_x + 32 > room_width || _new_y + 32 > room_height
-	if (_break_test) // if the upcoming instances bbox will be out of the room stop
+	if (_break_test) // if the upcoming instances bbox will be outside of the room, stop
 	{
 		break
 	}

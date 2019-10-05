@@ -2,7 +2,7 @@
     "id": "d68e07ef-500e-4716-a3f7-8c5d3049a4f0",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "oBuff_FireWeapon",
+    "name": "oSpell_FireWeapon",
     "eventList": [
         {
             "id": "c076a8e1-c3d5-4513-b32b-d1ed67382edd",
@@ -33,11 +33,21 @@
             "enumb": 10,
             "eventtype": 7,
             "m_owner": "d68e07ef-500e-4716-a3f7-8c5d3049a4f0"
+        },
+        {
+            "id": "ace29ede-de1b-43a2-a514-706c92991def",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 8,
+            "m_owner": "d68e07ef-500e-4716-a3f7-8c5d3049a4f0"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
     "overriddenProperties": null,
-    "parentObjectId": "2a68d304-7e21-4c78-a36d-8139cab9c2f6",
+    "parentObjectId": "a5eb4ea1-3f3b-457f-89fc-f73429f1d56d",
     "persistent": false,
     "physicsAngularDamping": 0.1,
     "physicsDensity": 0.5,

@@ -15,7 +15,7 @@ spells = instance_create_depth(0, 0, 200, oSubsystem_Spells)
 scrAddSpell(spells, oSpell_FireNova)
 scrAddSpell(spells, oSpell_FireBall)
 scrAddSpell(spells, oSpell_LavaRay)
-//scrAddSpell(spells, oBuff_FireWeapon)
+scrAddSpell(spells, oSpell_FireWeapon)
 
 statuses = instance_create_depth(0, 0, 200, oSubsystem_Status)
 

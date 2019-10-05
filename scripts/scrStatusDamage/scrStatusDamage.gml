@@ -14,7 +14,7 @@ for (var i = 0; i < ds_list_size(_system_instance.status_list); i++)
 {
 	var _status_id = _system_instance.status_list[| i]
 	var _status = global.status_list[| _status_id]
-	if (ds_map_exists(_status, "DAMAGE"))
+	if (ds_map_exists(_status, "DAMAGE") && _status[? "TYPE"] == "DEBUFF")
 	{
 		_damage += _status[? "DAMAGE"]
 	}

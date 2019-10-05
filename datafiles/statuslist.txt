@@ -10,3 +10,12 @@ ATR, TYPE, DEBUFF
 ATR, DAMAGE, 10
 ATR, DURATION, 5
 END
+
+# status 1
+BEGIN
+ATR, NAME, Fire Weapon
+ATR, DESCRIPTION, You weapon has been engulfed by flame.
+ATR, TYPE, BUFF
+ATR, DAMAGE, 10
+ATR, DURATION, 10
+END

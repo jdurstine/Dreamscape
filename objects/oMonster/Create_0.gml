@@ -1,13 +1,16 @@
 /// @description Initialize the object
 
+// values that should always be set
 move_speed = 32
 aggroed = false
+facing = directions.up
+scrCreateTurn(id, -1)
 
+// things that should be set in user event  0
+sprite_root = noone
 oHealth = noone
 drop_list = noone // array of item ids
 drop_chance = noone // chance that the monster drops anything
-
-scrCreateTurn(id, -1)
 
 event_user(0) // define any child specific variables here
 

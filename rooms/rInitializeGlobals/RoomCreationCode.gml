@@ -2,8 +2,9 @@
 
 #region Coding
 
+global.tilesize = 32
 global.collidables = ds_list_create()
-ds_list_add(global.collidables, oPlayerParent, oMonster,  oTerrainCollidable)
+ds_list_add(global.collidables, oPlayerParent, oMonster, oTerrainCollidable)
 
 enum directions {
 	up
