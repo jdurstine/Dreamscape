@@ -8,12 +8,12 @@ Some abilities have casting times - you will glow red while you are casting and 
 
 ### Controls
 
-> Movement: Arrow Keys
+> Movement: arrow keys
 
-> Skip turn/Wait: space/wait
+> Skip Turn/Wait: space
 
 > Abilities: q, w, e, r
 
-> Open inventory: i
+> Open Inventory: i
 
-> Close inventory: backspace
+> Close Inventory: backspace
